@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+section {
+    height: 100vh;
+    background-color: #E8F9FD;
+}
+
+.container {
+    height: 100%;
+    background-color: #79DAE8;
+}
+
+.navwrapper {
+    background-color: #E8F9FD;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #0AA1DD;
+    padding: 15px;
+    width: 100%;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+}
+
+.navbar p {
+    float: left;
+    color: #E8F9FD;
+}
+
+.navbar ul li {
+    display: inline-block;
+    float: right;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #E8F9FD;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    background-color: #79DAE8;
+    border-radius: 5px;
+    color: black;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {}
+
+.foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header img {
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+.profil h1 {
+    display: flex;
+    justify-content: center;
+}
+
+small {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    width: 60%;
+    margin: auto;
+}
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: center;
+}
+
+.content {
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+}
+
+.galeri h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 65px;
+}
+
+.galeri img {
+    width: 230px;
+    float: left;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 65px;
+}
+
+form {
+    padding: 50px;
+    width: 38%;
+    margin: auto;
+}
+
+.contact input {
+    display: block;
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    border-radius: 5px;
+}
+
+.contact textarea {
+    width: 400px;
+    height: 150px;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: solid black 1px;
+    resize: none;
+}
